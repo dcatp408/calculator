@@ -23,9 +23,47 @@
 <body>
 	<div class="main">
 		<div class="container">
-			<a href="/redecorate/single">Single Room</a>
+			<!-- <a href="/redecorate/single">Single Room</a>
 			<a href="/redecorate/multi">Multiple Room</a>
-			<a href="/redecorate/house">House</a>
+			<a href="/redecorate/house">House</a> -->
+			<div class="single-room-div">
+				<h2>Single Room</h2>
+				<div>
+					<h3>Pricing:</h3>
+					<ul>
+						<li>$5 - $10 per sqft</li>
+						<li>120 - 150 sqft</li>
+						<li>$700 - $2000</li>
+					</ul>
+				</div>
+				<button>Learn More</button>
+			</div>
+			
+			<div class="multi-room-div">
+				<h2>Multiple Room</h2>
+				<div>
+					<h3>Pricing:</h3>
+					<ul>
+						<li>$5 - $10 per sqft</li>
+						<li>1270 - 1500 sqft</li>
+						<li>$6,350 - $15,000</li>
+					</ul>
+				</div>
+				<button>Learn More</button>
+			</div>
+			
+			<div class="house-room-div">
+				<h2>House</h2>
+				<div>
+					<h3>Pricing:</h3>
+					<ul>
+						<li>$5 - $10 per sqft</li>
+						<li>2540 - 2700 sqft</li>
+						<li>$12,700 - $27,000</li>
+					</ul>
+				</div>
+				<button>Learn More</button>
+			</div>
 		</div>
 	</div>
 </body>
