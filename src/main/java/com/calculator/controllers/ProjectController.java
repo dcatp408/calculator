@@ -38,62 +38,16 @@ public String remodel() {
 	return "remodel_size.jsp";
 }
 
-//=============Choose a Size================
-
-
-@GetMapping("/redecorate/single")
-public String redecoratesingle(Model model) {
-	model.addAttribute("proj", new Project()); 
-	return "redecorate_single.jsp";
+@GetMapping("/home")
+public String home() {
+	return "home.jsp";
 }
 
-@GetMapping("/redecorate/multi")
-public String redecoratemulti(Model model) {
-	model.addAttribute("proj", new Project());
-	return "redecorate_multi.jsp";
+@GetMapping("/login")
+public String login() {
+	return "login.jsp";
 }
 
-@GetMapping("/redecorate/house")
-public String redecoratehouse(Model model) {
-	model.addAttribute("proj", new Project());
-	return "redecorate_house.jsp";
-}
-
-@GetMapping("/facelift/single")
-public String faceliftsingle(Model model) {
-	model.addAttribute("proj", new Project());
-	return "facelift_single.jsp";
-}
-
-@GetMapping("/facelift/multi")
-public String faceliftmulti(Model model) {
-	model.addAttribute("proj", new Project());
-	return "facelift_multi.jsp";
-}
-
-@GetMapping("/facelift/house")
-public String facelifthouse(Model model) {
-	model.addAttribute("proj", new Project());
-	return "facelift_house.jsp";
-}
-
-@GetMapping("/remodel/single")
-public String remodelsingle(Model model) {
-	model.addAttribute("proj", new Project());
-	return "remodel_single.jsp";
-}
-
-@GetMapping("/remodel/multi")
-public String remodelmulti(Model model) {
-	model.addAttribute("proj", new Project());
-	return "remodel_multi.jsp";
-}
-
-@GetMapping("/remodel/house")
-public String remodelhouse(Model model) {
-	model.addAttribute("proj", new Project());
-	return "remodel_house.jsp";
-}
 
 // ====================ACTION===============
 @PostMapping("/new/create")

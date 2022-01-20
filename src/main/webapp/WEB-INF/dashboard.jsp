@@ -26,6 +26,7 @@
 		<a href="/redecorate">Redecorate</a>
 		<a href="/facelift">Facelift</a>
 		<a href="/remodel">Custom Remodel</a>
+		<a href="/home">Home</a>
 		</div>
 	</div>
 </body>
